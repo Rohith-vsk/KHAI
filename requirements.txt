@@ -1,3 +1,5 @@
 azure-functions
 openai==0.28
 requests
+azure-identity
+azure-keyvault-secrets
