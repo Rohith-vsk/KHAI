@@ -65,7 +65,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
 
 def query_azure_search(query_text: str, search_service: str, index_name: str, api_key: str):
-    url = f"https://{search_service}.search.windows.net/indexes/{index_name}/docs/search?api-version=2020-08-01"
+    url = f"https://{search_service}.search.windows.net/indexes/{index_name}/docs/search?api-version=2023-11-01"
     headers = {
         "Content-Type": "application/json",
         "api-key": api_key
